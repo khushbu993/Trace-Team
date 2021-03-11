@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Project Name
 
-<h1 style = "color: F1E05A">Trace your Favorite Team</h1>
+<h1>Trace your Favorite Team</h1>
 
 ## Build With
 An application used to load data from an API, built with 
