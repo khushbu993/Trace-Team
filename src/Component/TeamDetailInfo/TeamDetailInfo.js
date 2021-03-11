@@ -9,23 +9,24 @@ import femalePlayerImage from '../../Photo/female.png';
 
 
 const TeamDetailInfo = (props) => {
-    const {intFormedYear, strCountry, strTeam, strGender} = props.teamDetail;
+    const { intFormedYear, strCountry, strTeam, strGender } = props.teamDetail;
+
     return (
         <div className="team-detail-info">
             <div className="row">
                 <div className="col-md-6">
-                    <div className = "team-info-left">
+                    <div className="team-info-left">
                         <div className="team-info-name">
                             <h3>{strTeam}</h3>
                         </div>
-                        <div className = "team-info">
-                            <div className = "team-info-icon">
-                                <img src= {founded} alt="teamInfoIcon"/>
-                                <img src= {flag} alt="teamInfoIcon"/>
-                                <img src= {football} alt="teamInfoIcon"/>
-                                <img src= {gender} alt="teamInfoIcon"/>
+                        <div className="team-info">
+                            <div className="team-info-icon">
+                                <img src={founded} alt="teamInfoIcon" />
+                                <img src={flag} alt="teamInfoIcon" />
+                                <img src={football} alt="teamInfoIcon" />
+                                <img src={gender} alt="teamInfoIcon" />
                             </div>
-                            <div className = "team-info-text">
+                            <div className="team-info-text">
                                 <p>Founded: {intFormedYear}</p>
                                 <p>Country : {strCountry}</p>
                                 <p>Sports type : Football</p>
@@ -34,13 +35,10 @@ const TeamDetailInfo = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className = "col-md-6">
-                    <div className = "player-image">
-                        {
-                            strGender === "Male" ? 
-                            <img src= {malePlayerImage} alt="malePlayerImage"/> : 
-                            <img src= {femalePlayerImage} alt="femalePlayerImage"/>
-                        }
+                <div className="col-md-6">
+                    <div className="player-image">
+                        {strGender === "Male" && <img src={malePlayerImage} alt="malePlayerImage" />}
+                        {strGender === "Female" && <img src={femalePlayerImage} alt="femalePlayerImage" />}
                     </div>
                 </div>
             </div>

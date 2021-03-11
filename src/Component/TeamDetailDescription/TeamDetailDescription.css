@@ -1,4 +1,7 @@
-.team-detail-description{
+.team-detail-description {
     color: white;
     padding-top: 40px;
+    font-family: 'Cambria', 'Times New Roman';
+    font-size: 20px;
+    text-align: justify;
 }

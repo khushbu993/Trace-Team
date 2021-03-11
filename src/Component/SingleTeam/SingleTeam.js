@@ -16,7 +16,7 @@ const SingleTeam = (props) => {
                     <h3>{strTeam}</h3>
                     <p>Sports type: Football</p>
                 </div>
-                <Link to = {`/teamDetail/${idTeam}`}>
+                <Link to={`/teamDetail/${idTeam}`}>
                     <div className="single-team-button">
                         <button>
                             Explore  <FontAwesomeIcon className="fa-icon" icon={faArrowRight} />

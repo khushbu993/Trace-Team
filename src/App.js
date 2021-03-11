@@ -13,20 +13,20 @@ import TeamDetail from './Component/TeamDetail/TeamDetail';
 function App() {
   return (
     <Router>
-        <Switch>
-            <Route path = "/home">
-                <Home/>
-            </Route>
-            <Route path = "/teamDetail/:teamId">
-              <TeamDetail/>
-            </Route>
-            <Route exact path = "/">
-                <Home/>
-            </Route>
-            <Route path = "*">
-                <NotFound/>
-            </Route>
-        </Switch>
+      <Switch>
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route path="/teamDetail/:teamId">
+          <TeamDetail />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="*">
+          <NotFound />
+        </Route>
+      </Switch>
     </Router>
   );
 }

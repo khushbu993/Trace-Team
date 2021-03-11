@@ -9,7 +9,7 @@ const TeamDetailDescription = (props) => {
             <div className="row">
                 <div className="col-md-12">
                     <p> {strDescriptionEN} </p>
-                    <br/>
+                    <br />
                     <p> {strStadiumDescription} </p>
                 </div>
             </div>

@@ -9,13 +9,13 @@ const TeamSocialLink = (props) => {
     return (
         <div className="team-social-links text-center">
             <a href={strTwitter}>
-                <img src= {twitterIcon} alt=""/>
+                <img src={twitterIcon} alt="" />
             </a>
             <a href={strFacebook}>
-                <img src= {facebookIcon} alt=""/>
+                <img src={facebookIcon} alt="" />
             </a>
             <a href={strYoutube}>
-                <img src= {youtubeIcon} alt=""/>
+                <img src={youtubeIcon} alt="" />
             </a>
         </div>
     );
