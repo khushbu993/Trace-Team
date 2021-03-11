@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './Component/Home/Home';
 import NotFound from './Component/NotFound/NotFound';
+import TeamDetail from './Component/TeamDetail/TeamDetail';
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
         <Switch>
             <Route path = "/home">
                 <Home/>
+            </Route>
+            <Route path = "/teamDetail/:teamId">
+              <TeamDetail/>
             </Route>
             <Route exact path = "/">
                 <Home/>

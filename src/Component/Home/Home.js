@@ -1,10 +1,13 @@
 import React from 'react';
-import '../Home.css';
+import './Home.css';
+import Header from '../Header/Header';
+import TeamList from '../TeamList/TeamList';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is home</h1>
+            <Header></Header>
+            <TeamList></TeamList>
         </div>
     );
 };

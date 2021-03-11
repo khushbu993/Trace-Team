@@ -1,0 +1,46 @@
+.single-team {
+    width: 100%;
+    height: 365px;
+    background-color: rgba(60, 176, 243, 0.8);
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    transition: 0.3s all ease;
+}
+.single-team:hover {
+    box-shadow: 2px 3px 15px rgb(255, 255, 255);
+  }
+  .single-team-logo img {
+    width: 132px;
+    height: 132px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+  }
+  .single-team-name h3 {
+      font-size: xx-large;
+    font-weight: 700;
+    color: white;
+
+  }
+.single-team-name p {
+  color: rgba(253, 215, 45, 0.904);
+  font-size: small;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.single-team-button button{
+    border: none;
+    border-radius: 10px;
+    background: wheat;
+    padding: 10px 25px;
+    color: #010161;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.single-team-button button:hover {
+    box-shadow: 2px 3px 5px #333;
+  }
+.single-team-button button .fa-icon{
+    margin-left: 5px;
+}

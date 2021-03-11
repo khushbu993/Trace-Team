@@ -1,7 +1,11 @@
 .notFound{
-    margin-top: 50px;
+    width: 520px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 450px;
     text-align: center;
     border: 1px solid red;
+    border-radius: 10px;
 }
 .notFound h3{
     color: red;
