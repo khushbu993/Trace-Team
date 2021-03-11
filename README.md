@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -54,8 +49,7 @@ This is an example of how to list things you need to use the software and how to
     node –v
     ```
 The system should display the Node.js version installed on your system. You can do the same for NPM:
-
-    ```sh
+     ```sh
     npm –v
     ```
 
@@ -99,5 +93,5 @@ Khushbu Islam Misbah - [https://www.gmail.com](https://www.gmail.com)
 
 Project Repo Link: [https://github.com/Porgramming-Hero-web-course/react-router-khushbu993](https://github.com/Porgramming-Hero-web-course/react-router-khushbu993)
 
-Project live site Link: []()
+Project live site Link: [https://competent-yalow-c650de.netlify.app/](https://competent-yalow-c650de.netlify.app/)
 
